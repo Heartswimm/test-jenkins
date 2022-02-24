@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('TEST') {
       steps {
-        sh 'echo "Test.java"'
+       sh java -jar {Test.java}
       }
     }
 
